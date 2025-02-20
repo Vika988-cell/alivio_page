@@ -42,14 +42,23 @@
 	.header__nav-link {
 		font-size: 16px;
 	}
-	.btn {
+	.header__actions .btn {
 		width: 120px;
 		font-size: 16px;
 	}
 }
 
 @media (max-width: 768px) {
+	.header__wrapper {
+		padding: 0px 0px 0px 45px;
+	}
 	.header__nav {
 		display: none;
+	}
+}
+
+@media (max-width: 390px) {
+	.header__actions .btn {
+		width: 90px;
 	}
 }
